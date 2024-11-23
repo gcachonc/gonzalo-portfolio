@@ -11,7 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        sub: "#C3C3C3",
       },
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        play: ['Play', 'sans-serif'],
+        lora: [ 'Lora', 'serif']
+      },
+      backgroundImage : {
+        newspaper: "url(https://res.cloudinary.com/dzc4qte1c/image/upload/v1732103355/bg-papel-periodico_j0bbol.png)"
+      }
     },
   },
   plugins: [],

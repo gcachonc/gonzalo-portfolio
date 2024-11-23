@@ -1,0 +1,57 @@
+{
+    "Hero":{
+        "title" : "¡Bienvenido a mi hogar digital!",
+        "subtitle": "Un espacio para conocer mi trabajo, mi formación, mis intereses y un poco de mi historia personal."
+    },
+    "Education":{
+        "title" : "Formación",
+        "paragraph1": "Comencé mi trayectoria académica estudiando Ingeniería Civil en la Universidad Politécnica de Madrid, donde desarrollé un sólido pensamiento analítico y resolutivo. Sin embargo, mi pasión por la tecnología me llevó a aventurarme en el mundo de la programación, formándome en 42 Madrid, un entorno donde aprendí de manera práctica y obtuve una visión amplia de la programación.",
+        "paragraph2": "Con el tiempo, descubrí el desarrollo web y decidí especializarme en este campo. Para ello, cursé un máster en desarrollo web en Assembler Institute of Technology, donde profundicé en las herramientas y metodologías más avanzadas de la industria.",
+        "paragraph3": "Además, durante mis estudios, trabajé en el sector de eventos con Esfering, gestionando un fotomatón en bodas, ferias y eventos corporativos. Esta experiencia me permitió desarrollar habilidades en atención al cliente y aprender a adaptarme a situaciones dinámicas y diversas."
+    },
+    "BreakPoint1": {
+        "word1" : "Experiencia",
+        "word2" : "Profesional"
+    },
+    "Delasign": {
+        "title": "Delasign",
+        "duration": "Agosto 2021 - Actualmente",
+        "description" : {
+            "parrafo1" : "Después de completar mi formación en desarrollo web, tuve la oportunidad de colaborar con Delasign, una empresa de Nueva York, gracias a la confianza depositada en mí por su CEO, Oscar de la Hera. Este primer acercamiento profesional fue clave para mi desarrollo, ya que Oscar, un experto en desarrollo de aplicaciones para iOS, me ofreció un entorno de aprendizaje y trabajo en el que perfeccioné mis habilidades en la creación de aplicaciones móviles en Swift y exploré el desarrollo para Android con Kotlin.",
+            "parrafo2" : "Durante mi experiencia en Delasign, trabajé en el diseño y la maquetación de See My Path, una aplicación desarrollada en .NET para ayudar a estudiantes en Estados Unidos a elegir su trayectoria profesional. Este proyecto me permitió aplicar mis conocimientos en diseño y desarrollo, y entender a fondo el ciclo de vida de una aplicación educativa y orientada al usuario final. Asimismo, participé en el desarrollo de Price After, centrándome especialmente en la implementación de la calculadora de precios y en la revisión de traducciones al español como copywriter. Esta innovadora aplicación utiliza la cámara del teléfono para calcular el precio final de productos en menús de restaurantes, considerando impuestos y propinas en función del estado de EE.UU. donde se utilice.",
+            "parrafo3" : "Mi experiencia en Delasign no solo me proporcionó habilidades técnicas y una comprensión profunda del desarrollo de aplicaciones móviles, sino que también me introdujo al uso de Figma para el diseño de interfaces, destacando la importancia de la estética y la usabilidad en los proyectos tecnológicos. Actualmente, sigo colaborando con Delasign de manera puntual, manteniéndome disponible para apoyar a Oscar y al equipo en futuros desafíos, en gratitud por la formación y el conocimiento práctico que recibí en mis primeros pasos como desarrollador."
+        },
+        "links": "Enlaces de Interés"
+    },
+    "GoConcept": {
+        "title": "Go Concept / Sice",
+        "duration": "Agosto 2021 - Actualmente",
+        "description" : {
+            "parrafo1" : "Durante mi tiempo en la consultora GO Concept, tuve la oportunidad de trabajar como desarrollador full stack para uno de sus principales clientes, SICE, una empresa especializada en el desarrollo de software y hardware de dispositivos de control de carreteras. En este proyecto, fui parte de un equipo multidisciplinario, colaborando en el desarrollo de soluciones con tecnologías como .NET, Go, Node.js y React, y gestionando bases de datos SQL.",
+            "parrafo2" : "Este rol no solo me permitió afianzar mis habilidades técnicas en un entorno tecnológico variado, sino que también me dio la oportunidad de sumergirme en la dinámica de una gran empresa de desarrollo. Trabajar en un proyecto de gran escala, con múltiples equipos y profesionales contribuyendo al mismo software, me permitió experimentar de primera mano la importancia de la colaboración, la gestión de versiones y la comunicación eficiente. La experiencia fue enriquecedora y me ayudó a desarrollar una mejor comprensión de las prácticas de trabajo en entornos corporativos de gran envergadura."
+        },
+        "links": "Enlaces de Interés"
+    },
+    "ContentFactory": {
+        "title": "Content Factory",
+        "duration": "October 2023 - November 2024",
+        "description": {
+            "parrafo1": "In October 2023, I joined Content Factory, the branded content division of the Vocento Group. This stage marked a turning point in my career, as it sparked a strong interest in design, especially in the fields of editorial design and user experience. I was part of the product development team, where we focused on creating high-quality editorial content for major brands such as Bankinter, Nissan, IKEA, Telefónica, Alhambra, Estrella Galicia, Banco Santander, La Liga, BBVA, among others.",
+            "parrafo2": "During this experience, I developed my design skills under the mentorship of Alessandro Marra, who guided me in refining aesthetic and functional concepts. At the same time, I worked with the head of brand strategy, a passionate advocate of artificial intelligence, which allowed me to explore and utilize AI tools applied to content development. Additionally, I closely collaborated with Aurora Yáñez, the head of the accounts team, from whom I learned about the rigor of investigative journalism and the importance of attention to detail in writing.",
+            "parrafo3": "Without a doubt, this experience has been one of the most enriching in my career, providing me not only with technical and creative knowledge but also with a broader vision of how to combine design, technology, and communication.",
+            "parrafo4": "My projects were published in the main media outlets of the Vocento Group, such as ABC, El Correo, El Diario Montañés, El Norte de Castilla, Relevo, Mujer Hoy, among others. You can find links to these works below."
+        }
+    }, 
+    "NewsPaper": {
+        "header" : "El periódico",
+        "headline": "Mis trabajos en Content Factory para el grupo Vocento. Árticulos editoriales de Branded Content. Haz click para visitarlos",
+        "article1": "Horizonte Innovación, entrevistas de Pau García-Milá a emprendedores",
+        "article2": "Crónicas sin prisa, una invitación a pausar y disfrutar",
+        "article3": "Smart-Step: La Tecnología de Telefónica que Transforma Ciudades ",
+        "article4": "IKEA se adapta a cada hogar",
+        "article5": "Descubre el Alma de la Artesanía: Conoce a los Artesanos detrás de Bigcrafters",
+        "article6": "Tecnología, arte y artesanía: una cámara para llegar al corazón",
+        "article7": "De Pequeñas Ideas a Grandes Logros: Historias que Inspiran",
+        "article8": "Buena Huella: Cómo Convertimos Desechos en Nuevas Oportunidades"
+    }
+}
