@@ -4,7 +4,6 @@ import Header from "./components/header";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
 import type { Locale } from "@/i18n/routing";
 
 export const metadata: Metadata = {
