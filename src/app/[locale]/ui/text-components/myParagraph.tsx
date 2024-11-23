@@ -4,7 +4,7 @@ interface ParagraphProps {
   
 const MyParagraph = ({ text }: ParagraphProps )=> {
     return (
-        <p className="text-white font-play font-normal text-lg lg:text-xl mb-6">
+        <p className="text-foreground font-play font-normal text-lg lg:text-xl mb-6">
         {text}
         </p>
     );
