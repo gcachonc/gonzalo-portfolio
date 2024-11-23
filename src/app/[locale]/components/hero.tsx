@@ -53,7 +53,7 @@ const Hero = () => {
             <img src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732267773/foto-princi_jipiuu.png" alt="foto-princi" className='h-full w-full rounded-3xl -rotate-1 relative top-[-10px] z-30 right-0' id='foto1'/>
         </figure>
         <div className='flex flex-col items-center justify-center gap-8'>
-            <h1 className='max-w-lg text-center font-play text-5xl tracking-wider'>{t('title')}</h1>
+            <h1 className='max-w-lg text-center font-play text-5xl tracking-wider'>{t('title') }puto carapolla</h1>
             <h2 className='max-w-lg text-center font-play font-normal'>{t('subtitle')}</h2>
         </div>
       </section>
