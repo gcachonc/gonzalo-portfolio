@@ -17,10 +17,12 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: Promise<{ locale: string }>; // Declarar que `params` es una promesa
 }) {
+  // Esperar a que se resuelva la promesa
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
 
-  const { locale } = await params
   // Define the type of locales explicitly
   type Locale = typeof routing.locales[number];
 
@@ -30,7 +32,6 @@ export default async function LocaleLayout({
   }
  
   // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
