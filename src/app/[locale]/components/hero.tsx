@@ -4,7 +4,6 @@ import React from 'react';
 import {useTranslations} from 'next-intl';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
 
 const Hero = () => {
   const t = useTranslations('Hero')
