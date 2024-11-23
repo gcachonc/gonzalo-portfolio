@@ -41,7 +41,7 @@ const LabExperience = ({ text, mainImage, logos, links } : LabExperienceProps) =
             </div>
             {links && (
                 <div className="flex flex-col w-full max-w-xl lg:max-w-full">
-                    <h4 className="text-white font-play font-normal text-3xl lg:text-4xl mb-8">{t('links')}</h4>
+                    <h4 className="text-foreground font-play font-normal text-3xl lg:text-4xl mb-8">{t('links')}</h4>
                     <div className="flex flex-row gap-3">
                         {links.map((link, index) => (
                             <a href={link.url} key={index} target="blank" className="text-sub hover:text-white font-play text-sm lg:text-lg underline">{link.title}</a>
