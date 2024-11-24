@@ -1,45 +1,37 @@
 import "./globals.css";
 import Header from "./components/header";
-import {ReactNode} from 'react';
+import { ReactNode } from "react";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import {routing} from '@/i18n/routing';
+import { routing } from "@/i18n/routing";
 import { getTranslations, setRequestLocale, getMessages } from "next-intl/server";
 
 type Props = {
   children: ReactNode;
-  params: {locale: string};
+  params: { locale: "en" | "es" }; // Define locales válidos
 };
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params
-}: Omit<Props, 'children'>) {
-  const { locale } = await params; // Asegúrate de desestructurar correctamente
-  const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
+export async function generateMetadata({ params }: Omit<Props, "children">) {
+  const { locale } = params; // Asegúrate de no usar await en params
+  const t = await getTranslations({ locale, namespace: "LocaleLayout" });
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title: t("title"),
+    description: t("description"),
   };
 }
 
-export default async function LocaleLayout({
-  children,
-  params
-}: Props) {
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale } = params;
 
-  const { locale } = await params;
-
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!["en", "es"].includes(locale)) {
     notFound();
   }
 
-  // Enable static rendering
   setRequestLocale(locale);
 
   const messages = await getMessages();
