@@ -1,4 +1,8 @@
 {
+    "LocaleLayout": {
+        "title": "Gonzalo Cachón's Website",
+        "description": "Learn a bit more about Gonzalo."
+    },
     "Hero":{
         "title" : "Welcome to my digital home!",
         "subtitle": "A space to explore my work, my education, my interests, and a glimpse into my personal story."

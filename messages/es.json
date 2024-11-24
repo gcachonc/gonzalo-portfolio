@@ -1,4 +1,8 @@
 {
+    "LocaleLayout":{
+        "title": "Sitio web de Gonzalo Cachón",
+        "description": "Conoce un poco más a Gonzalo."
+    },
     "Hero":{
         "title" : "¡Bienvenido a mi hogar digital!",
         "subtitle": "Un espacio para conocer mi trabajo, mi formación, mis intereses y un poco de mi historia personal."

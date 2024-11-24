@@ -1,33 +1,45 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
+import {ReactNode} from 'react';
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
-import type { Locale } from "@/i18n/routing";
+import {routing} from '@/i18n/routing';
+import { getTranslations, setRequestLocale, getMessages } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Gonzalo Cachón website",
-  description: "Conoce un poco más a Gonzalo.",
+type Props = {
+  children: ReactNode;
+  params: {locale: string};
 };
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
+
+export async function generateMetadata({
+  params: {locale}
+}: Omit<Props, 'children'>) {
+  const t = await getTranslations({locale, namespace: 'LocaleLayout'});
+
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
 
 export default async function LocaleLayout({
   children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { locale: Locale };
-}) {
-  const { locale } = await Promise.resolve(params);
-
-  // Obtener mensajes para el idioma actual
-  let messages;
-  try {
-    messages = await getMessages({ locale });
-  } catch (error) {
-    console.error("Error al obtener mensajes:", error);
-    notFound(); // Redirige a la página 404 si no se pueden cargar los mensajes
+  params: {locale}
+}: Props) {
+  // Ensure that the incoming `locale` is valid
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  const messages = await getMessages();
 
   return (
     <html lang={locale} suppressHydrationWarning>
