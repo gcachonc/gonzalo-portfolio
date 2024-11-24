@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
 import {ReactNode} from 'react';
@@ -17,20 +16,24 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({
-  params: {locale}
+  params
 }: Omit<Props, 'children'>) {
-  const t = await getTranslations({locale, namespace: 'LocaleLayout'});
+  const { locale } = params; // Asegúrate de desestructurar correctamente
+  const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
 
   return {
     title: t('title'),
-    description: t('description')
+    description: t('description'),
   };
 }
 
 export default async function LocaleLayout({
   children,
-  params: {locale}
+  params
 }: Props) {
+
+  const { locale } = await params;
+
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as any)) {
     notFound();
