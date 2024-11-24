@@ -18,7 +18,7 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params
 }: Omit<Props, 'children'>) {
-  const { locale } = params; // Asegúrate de desestructurar correctamente
+  const { locale } = await params; // Asegúrate de desestructurar correctamente
   const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
 
   return {
