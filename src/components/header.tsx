@@ -1,5 +1,5 @@
 import React from 'react';
-import LanguageSwitcher from '../ui/languageSwitcher';
+import LanguageSwitcher from './ui/languageSwitcher';
 
 const Header = () => {
   return (

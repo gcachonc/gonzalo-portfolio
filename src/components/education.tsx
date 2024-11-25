@@ -1,6 +1,6 @@
 import {useTranslations} from 'next-intl';
-import MyTitle from '../ui/text-components/myTitle';
-import MyParagraph from '../ui/text-components/myParagraph';
+import MyTitle from './ui/text-components/myTitle';
+import MyParagraph from './ui/text-components/myParagraph';
 
 const Education = () => {
   const t = useTranslations('Education')
