@@ -62,7 +62,7 @@ const NewsPaper = () => {
                                 alt="redaccion de un periodico"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover "
+                                className="w-1/2 lg:w-full object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article1')}</h4>
                         </a>
@@ -74,7 +74,7 @@ const NewsPaper = () => {
                                 alt="redaccion de un periodico"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover"
+                                className="w-1/2 lg:w-full object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article2')}</h4>
                         </a>
@@ -86,7 +86,7 @@ const NewsPaper = () => {
                                 alt="redaccion de un periodico"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover max-w[306px]"
+                                className="w-1/2 lg:w-full object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article3')}</h4>
                         </a>
@@ -100,7 +100,7 @@ const NewsPaper = () => {
                                 alt="portada ikea"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover py-3 lg:py-0"
+                                className="w-1/2 lg:w-full object-cover py-3 lg:py-0 h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article4')}</h4>
                         </a>
@@ -112,7 +112,7 @@ const NewsPaper = () => {
                                 alt="portada bigcrafters"
                                 width={431}
                                 height={376}
-                                className="w-1/2 object-cover"
+                                className="w-1/2 object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl mx-auto flex justify-center items-center px-3">{t('article5')}</h4>
                         </a>
@@ -126,14 +126,14 @@ const NewsPaper = () => {
                         alt="logo somos equipo"
                         width={120}
                         height={64}
-                        className="max-h-[22px] lg:max-h-[32px]"
+                        className="max-h-[22px] lg:max-h-[32px] w-auto"
                         />
                         <Image
                         src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732191114/un-proyecto-laliga_h7mjtf.svg"
                         alt="un proyecto con Laliga"
                         width={120}
                         height={47}
-                        className="max-h-[18px] lg:max-h-[27px]"
+                        className="max-h-[18px] lg:max-h-[27px] w-auto"
                         />
                     </div>
                 </div>
@@ -158,7 +158,7 @@ const NewsPaper = () => {
                                         alt=""
                                         width={200}
                                         height={150}
-                                        className="object-cover pb-3 w-full"
+                                        className="object-cover pb-3 w-full h-auto"
                                     />
                                 </a>
                             </div>
@@ -169,7 +169,7 @@ const NewsPaper = () => {
                                     alt=""
                                     width={200}
                                     height={150}
-                                    className="object-cover pb-3 w-full"
+                                    className="object-cover pb-3 w-full h-auto"
                                 />
                                 </a>
                             </div>
@@ -182,7 +182,7 @@ const NewsPaper = () => {
                                     alt=""
                                     width={200}
                                     height={150}
-                                    className="object-cover w-full"
+                                    className="object-cover w-full h-auto"
                                 />
                                 </a>
                             </div>
@@ -193,7 +193,7 @@ const NewsPaper = () => {
                                     alt=""
                                     width={200}
                                     height={150}
-                                    className="object-cover w-full"
+                                    className="object-cover w-full h-auto"
                                 />
                                 </a>
                             </div>
@@ -208,7 +208,7 @@ const NewsPaper = () => {
                                 alt="portada xiaomi"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover "
+                                className="w-1/2 lg:w-full object-cover h-auto "
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article1')}</h4>
                         </a>
@@ -220,7 +220,7 @@ const NewsPaper = () => {
                                 alt="portada sabadell"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover"
+                                className="w-1/2 lg:w-full object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article2')}</h4>
                         </a>
@@ -232,7 +232,7 @@ const NewsPaper = () => {
                                 alt="portada naturgy"
                                 width={306}
                                 height={180}
-                                className="w-1/2 lg:w-full object-cover max-w[306px]"
+                                className="w-1/2 lg:w-full object-cover h-auto"
                             />
                             <h4 className="font-lora font-medium text-black text-lg lg:text-2xl lg:mt-4 mx-auto w-1/2 lg:w-full">{t('article3')}</h4>
                         </a>

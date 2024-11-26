@@ -27,7 +27,7 @@ const ContentFactoryExperience = () => {
                         alt="ilustration"
                         width={480}
                         height={369}
-                        className="w-full h-full rounded-2xl"
+                        className="w-full h-auto rounded-2xl"
                         />
                     </figure>
                     <div className="flex flex-row gap-2">
@@ -38,7 +38,7 @@ const ContentFactoryExperience = () => {
                             alt="logo empresa"
                             width={150}
                             height={48}
-                            className="h-full"
+                            className="h-full w-auto"
                             />
                         </figure>
                         ))}

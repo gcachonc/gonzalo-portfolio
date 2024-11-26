@@ -47,11 +47,11 @@ const Hero = () => {
   
   return (
       <section className="max-w-6xl mx-auto text-center flex items-center flex-col lg:flex-row min-h-96 max-h-screen w-full justify-center lg:justify-between gap-20 px-8 lg:py-16 mt-14 lg:mt-6 box-border">
-        <figure className='max-h-[372px] lg:max-h-[553px] max-w-[250px] lg:max-w-[372px] relative'>
+        <figure className='relative'>
           <Image
             src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1731584766/foto-principal_ikkv5f.png"
             alt="foto-climbing"
-            className="h-full w-full rounded-3xl absolute t-[20px] z-0 hidden"
+            className="rounded-3xl absolute t-[20px] z-0 hidden max-h-[372px] lg:max-h-[553px] w-auto"
             id="foto4"
             width={250}
             height={372}
@@ -59,7 +59,7 @@ const Hero = () => {
           <Image
             src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732270204/foto-esqui_akqgf5.png"
             alt="foto-riding"
-            className="h-full w-full rounded-3xl -rotate-6 absolute top-[10px] z-10 right-[20px]"
+            className="rounded-3xl -rotate-6 absolute top-[10px] z-10 right-[20px] max-h-[372px] lg:max-h-[553px] w-auto"
             id="foto3"
             width={250}
             height={372}
@@ -67,7 +67,7 @@ const Hero = () => {
           <Image
             src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732270204/foto-escalada_we5cf3.png"
             alt="foto-esqui"
-            className="h-full w-full rounded-3xl -rotate-3 absolute top-0 z-20 right-[10px]"
+            className="rounded-3xl -rotate-3 absolute top-0 z-20 right-[10px] max-h-[372px] lg:max-h-[553px] w-auto"
             id="foto2"
             width={250}
             height={372}
@@ -75,7 +75,7 @@ const Hero = () => {
           <Image
             src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732267773/foto-princi_jipiuu.png"
             alt="foto-princi"
-            className="h-full w-full rounded-3xl -rotate-1 relative top-[-10px] z-30 right-0"
+            className="rounded-3xl -rotate-1 relative top-[-10px] z-30 right-0 max-h-[372px] lg:max-h-[553px] w-auto"
             id="foto1"
             width={250}
             height={372}
