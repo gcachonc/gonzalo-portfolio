@@ -22,8 +22,7 @@ const GoConceptExperience = () => {
           <MyTitle text={t("title")} />
           <p className="text-sub font-play text-base lg:text-lg mb-7">{t("duration")}</p>
           <MyParagraph text={t("description.parrafo1")} />
-          <MyParagraph text={t("description.parrafo1")} />
-          <MyParagraph text={t("description.parrafo1")} />
+          <MyParagraph text={t("description.parrafo2")} />
         </div>
         <div className="flex flex-col h-fit relative lg:sticky lg:top-6 w-full lg:w-auto max-w-xl my-5">
           <figure className="max-h-[369px] max-w-[480px] lg:max-w-[372px] mb-4">
