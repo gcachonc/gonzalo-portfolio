@@ -56,7 +56,7 @@ const NewsPaper = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row divide-y lg:divide-x lg:divide-y-0 divide-gray-800 mt-8 lg:mb-8">
                     <div className=" box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/05/07/nissan-como-disenar-una-tecnologia-para-que-nadie-se-resista-a-usarla/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/05/07/nissan-como-disenar-una-tecnologia-para-que-nadie-se-resista-a-usarla/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732115023/portada-nissan_o8uulm.png"
                                 alt="redaccion de un periodico"
@@ -68,7 +68,7 @@ const NewsPaper = () => {
                         </a>
                     </div>
                     <div className="box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/09/27/alhambra-sin-prisa-por-que-el-77-de-los-espanoles-prefiere-pasar-en-compania-un-momento-de-desconexion/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/09/27/alhambra-sin-prisa-por-que-el-77-de-los-espanoles-prefiere-pasar-en-compania-un-momento-de-desconexion/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732115063/portada-alhambra_osdovj.png"
                                 alt="redaccion de un periodico"
@@ -80,7 +80,7 @@ const NewsPaper = () => {
                         </a>
                     </div>
                     <div className="box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/07/23/telefonica-smart-steps-la-tecnologia-que-optimiza-el-trafico-en-grandes-eventos/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/07/23/telefonica-smart-steps-la-tecnologia-que-optimiza-el-trafico-en-grandes-eventos/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732115021/portada-telefonica_ldmhei.png"
                                 alt="redaccion de un periodico"
@@ -94,7 +94,7 @@ const NewsPaper = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row divide-y">
                     <div className="box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/05/14/hogar-tu-medida-transformacion-total-descubre-como-ikea-revivio-la-cocina-de-felisa-con-un-toque-magico/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 border-t border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/05/14/hogar-tu-medida-transformacion-total-descubre-como-ikea-revivio-la-cocina-de-felisa-con-un-toque-magico/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 border-t border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732187063/portada-ikea_agqbwq.png"
                                 alt="portada ikea"
@@ -106,7 +106,7 @@ const NewsPaper = () => {
                         </a>
                     </div>
                     <div className="box-border p-5 lg:w-2/3 lg:mr-3 bg-gray-300">
-                        <a href="https://www.abc.es/contentfactory/post/2024/10/18/bigcrafters-airas-moniz-la-queseria-gallega-mas-premiada-de-los-ultimos-anos/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 justify-center ">
+                        <a href="https://www.abc.es/contentfactory/post/2024/10/18/bigcrafters-airas-moniz-la-queseria-gallega-mas-premiada-de-los-ultimos-anos/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 justify-center hover:mix-blend-multiply ">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732187065/portada-bigcrafters_iruwfm.png"
                                 alt="portada bigcrafters"
@@ -139,7 +139,7 @@ const NewsPaper = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row lg:h-[382px] lg:px-3 mb-3">
                     <div className="lg:w-1/3">
-                        <a href="https://www.relevo.com/laliga/somos-equipo/" target="_blank" rel="noopener noreferrer" className="h-full">
+                        <a href="https://www.relevo.com/laliga/somos-equipo/" target="_blank" rel="noopener noreferrer" className="h-full hover:mix-blend-multiply">
                         <Image
                             src={somosEquipoURLIMG}
                             alt="portada capitulos somos-equipo"
@@ -152,7 +152,7 @@ const NewsPaper = () => {
                     <div className="lg:w-2/3 flex flex-col">
                         <div className="h-auto flex flex-row gap-3">
                             <div className="w-1/2">
-                                <a href="https://www.relevo.com/laliga/villarreal-haz-que-importe-a-todos/" target="_blank" rel="noopener noreferrer" className="w-full">
+                                <a href="https://www.relevo.com/laliga/villarreal-haz-que-importe-a-todos/" target="_blank" rel="noopener noreferrer" className="w-full hover:mix-blend-multiply">
                                     <Image
                                         src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732201737/portada-villarreal_y5jccm.png"
                                         alt=""
@@ -163,7 +163,7 @@ const NewsPaper = () => {
                                 </a>
                             </div>
                             <div className="w-1/2">
-                                <a href="https://www.relevo.com/laliga/real-celta-de-vigo-haz-que-importe-a-todos" target="_blank" rel="noopener noreferrer" className="w-full">
+                                <a href="https://www.relevo.com/laliga/real-celta-de-vigo-haz-que-importe-a-todos" target="_blank" rel="noopener noreferrer" className="w-full hover:mix-blend-multiply">
                                 <Image
                                     src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732201735/portada-celta_of5b9o.png"
                                     alt=""
@@ -176,7 +176,7 @@ const NewsPaper = () => {
                         </div>
                         <div className="h-auto flex flex-row gap-3">
                             <div className="w-1/2">
-                                <a href="https://www.relevo.com/laliga/sevilla-fc-cree-en-el-talento-deja-huella/" target="_blank" rel="noopener noreferrer" className="w-full">
+                                <a href="https://www.relevo.com/laliga/sevilla-fc-cree-en-el-talento-deja-huella/" target="_blank" rel="noopener noreferrer" className="w-full hover:mix-blend-multiply">
                                 <Image
                                     src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732201737/portada-sevilla_fms3wp.png"
                                     alt=""
@@ -187,7 +187,7 @@ const NewsPaper = () => {
                                 </a>
                             </div>
                             <div className="w-1/2">
-                                <a href="https://www.relevo.com/laliga/atletico-de-madrid-apuntar-alto-a-base-de-coraje-y-corazon/" target="_blank" rel="noopener noreferrer" className="w-full">
+                                <a href="https://www.relevo.com/laliga/atletico-de-madrid-apuntar-alto-a-base-de-coraje-y-corazon/" target="_blank" rel="noopener noreferrer" className="w-full hover:mix-blend-multiply">
                                 <Image
                                     src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732201735/portada-atletico_toxrcf.png"
                                     alt=""
@@ -202,7 +202,7 @@ const NewsPaper = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row divide-y lg:divide-x lg:divide-y-0 divide-gray-800 mt-8 lg:mb-8">
                     <div className=" box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/04/16/xiaomi-tecnologia-arte-y-artesania-una-camara-para-llegar-al-corazon/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/04/16/xiaomi-tecnologia-arte-y-artesania-una-camara-para-llegar-al-corazon/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732260463/portada-xiaomi_z19w89.png"
                                 alt="portada xiaomi"
@@ -214,7 +214,7 @@ const NewsPaper = () => {
                         </a>
                     </div>
                     <div className="box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/10/02/sabadell-te-acerco-embutidos-fermin-todo-lo-hacen-aqui/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/10/02/sabadell-te-acerco-embutidos-fermin-todo-lo-hacen-aqui/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732260465/portada-sabadell_fceoin.png"
                                 alt="portada sabadell"
@@ -226,7 +226,7 @@ const NewsPaper = () => {
                         </a>
                     </div>
                     <div className="box-border py-3 lg:py-0 lg:px-3 lg:w-1/3">
-                        <a href="https://www.abc.es/contentfactory/post/2024/10/22/buena-huella-las-camisetas-del-futuro-se-haran-con-paja/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800">
+                        <a href="https://www.abc.es/contentfactory/post/2024/10/22/buena-huella-las-camisetas-del-futuro-se-haran-con-paja/" target="_blank" rel="noopener noreferrer" className="flex flex-row lg:flex-col gap-3 lg:gap-0 items-center lg:py-5 lg:border-t lg:border-gray-800 hover:mix-blend-multiply">
                             <Image
                                 src="https://res.cloudinary.com/dzc4qte1c/image/upload/v1732260531/portada-naturgy_kqaqp6.png"
                                 alt="portada naturgy"
