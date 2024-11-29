@@ -57,5 +57,17 @@
         "article6": "Tecnología, arte y artesanía: una cámara para llegar al corazón",
         "article7": "De Pequeñas Ideas a Grandes Logros: Historias que Inspiran",
         "article8": "Buena Huella: Cómo Convertimos Desechos en Nuevas Oportunidades"
+    },
+    "Contact":{
+        "title": "¿Necesitas Algo?",
+        "description" :{
+            "paragraph1" :"¿Buscas una página web moderna, funcional y adaptada a tus necesidades? Rellena el formulario a continuación, y me pondré en contacto contigo para analizar tu proyecto y convertir tus ideas en realidad." 
+        }
+    },
+    "ContactForm": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar"
     }
 }

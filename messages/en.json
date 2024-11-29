@@ -57,5 +57,17 @@
         "article6": "Technology, art, and craftsmanship: a camera that touches the heart",
         "article7": "From Small Ideas to Great Achievements: Stories that Inspire",
         "article8": "Buena Huella: How We Turn Waste into New Opportunities"
+    },
+    "Contact": {
+        "title": "Need Something?",
+        "description": {
+            "paragraph1": "Are you looking for a modern, functional website tailored to your needs? Fill out the form below, and I will get in touch with you to analyze your project and turn your ideas into reality."
+        }
+    },    
+    "ContactForm": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
     }
 }
